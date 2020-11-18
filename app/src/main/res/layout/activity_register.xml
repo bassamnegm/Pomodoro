@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backgroundapp"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".Register">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sgin up here"
+    android:textColor="#EDE5E5"
+    android:gravity="center"
+    android:textAppearance="?android:textAppearanceMediumInverse"
+    android:layout_gravity="center"
+    android:id="@+id/text"
+    ></TextView>
+
+<EditText
+    android:textAppearance="?android:textAppearanceMediumInverse"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:textColor="#EDE5E5"
+    android:drawableStart="@drawable/profile"
+    android:layout_margin="10dp"
+    android:textColorHint="#F3ECEC"
+    android:background="@drawable/box"
+    android:padding="10dp"
+    android:id="@+id/email"
+    ></EditText>
+<EditText
+    android:textAppearance="?android:textAppearanceMediumInverse"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:textColor="#EDE5E5"
+    android:layout_margin="10dp"
+    android:textColorHint="#F8F5F5"
+    android:inputType="textPassword"
+    android:background="@drawable/box"
+    android:padding="10dp"
+    android:drawableStart="@drawable/pass"
+    android:id="@+id/password"
+    ></EditText>
+<Button
+    android:textAppearance="?android:textAppearanceMediumInverse"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box"
+    android:layout_margin="10dp"
+    android:text="sgin up"
+    android:id="@+id/sginup"
+    android:textColor="#EDE5E5"></Button>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#EDE5E5"
+    android:gravity="center"
+    android:textAppearance="?android:textAppearanceMediumInverse"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:id="@+id/sginin"
+    ></TextView>
+
+
+
+
+
+</LinearLayout>

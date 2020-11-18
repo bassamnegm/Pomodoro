@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674175833211",
+    "firebase_url": "https://budegtapp.firebaseio.com",
+    "project_id": "budegtapp",
+    "storage_bucket": "budegtapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674175833211:android:8cff90a18bd6a533bffede",
+        "android_client_info": {
+          "package_name": "com.example.budegtapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674175833211-u70o1ji9rod98nos0apsmqk72sh4d14b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.budegtapp",
+            "certificate_hash": "cc17d8bd3c9b3a47e91f8dc3d43e17b5f2fe60a2"
+          }
+        },
+        {
+          "client_id": "674175833211-0rh6dmv30v3eiioca271sbe4il9s5q68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGH0NTLs7gWAxcweVW4rj2dTGApH5WcME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674175833211-0rh6dmv30v3eiioca271sbe4il9s5q68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

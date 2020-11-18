@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="40dp"
+    android:layout_centerHorizontal="true"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="1.0"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/backgroundapp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:padding="5dp"
+            android:maxLines="2"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/titleid"
+            android:textStyle="bold"
+            android:textColor="#F1EEEE"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="descreption"
+            android:padding="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:maxLines="2"
+            android:id="@+id/desid"
+            android:textStyle="bold"
+            android:textColor="#F1EEEE"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            ></TextView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="10/2/2020"
+            android:padding="5dp"
+            android:maxLines="2"
+            android:id="@+id/dateid"
+            android:textStyle="bold"
+            android:textColor="#F1EEEE"
+            android:background="@drawable/box2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            ></TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
