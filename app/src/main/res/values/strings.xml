@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Pomodoro</string>
+    <string name="sgin_up_here">Sgin up here</string>
+    <string name="sgin_up">sgin up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sgin_in_here">Sgin in here</string>
+    <string name="sgin_in">sgin in</string>
+    <string name="descreption">Descreption:</string>
+    <string name="_10_2_2020">10/2/2020</string>
+    <string name="descreption1">descreption</string>
+    <string name="title">title</string>
+    <string name="save">save</string>
+    <string name="add_your_data">add your data</string>
+    <string name="title1">Title:</string>
 </resources>

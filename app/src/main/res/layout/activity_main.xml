@@ -11,9 +11,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sgin in here"
+        android:text="@string/sgin_in_here"
         android:textColor="#EFECEC"
         android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
         android:textAppearance="?android:textAppearanceMediumInverse"
         android:layout_gravity="center"
         android:id="@+id/text"
@@ -23,7 +25,7 @@
         android:textAppearance="?android:textAppearanceMediumInverse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="@string/email"
         android:drawableStart="@drawable/profile"
         android:textColor="#EFECEC"
         android:layout_margin="10dp"
@@ -31,13 +33,14 @@
         android:background="@drawable/box"
         android:padding="10dp"
         android:id="@+id/email"
-        ></EditText>
+        android:inputType="textEmailAddress"
+        android:autofillHints=""></EditText>
     <EditText
 
         android:textAppearance="?android:textAppearanceMediumInverse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColor="#EFECEC"
         android:layout_margin="10dp"
         android:inputType="textPassword"
@@ -46,14 +49,14 @@
         android:background="@drawable/box"
         android:padding="10dp"
         android:id="@+id/password"
-        ></EditText>
+        android:autofillHints=""></EditText>
     <Button
         android:textAppearance="?android:textAppearanceMediumInverse"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/box"
         android:layout_margin="10dp"
-        android:text="sgin in"
+        android:text="@string/sgin_in"
         android:id="@+id/btnsginin"
         android:textColor="#EFECEC"
         ></Button>

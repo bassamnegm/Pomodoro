@@ -13,7 +13,7 @@
         android:textAppearance="?android:textAppearanceMediumInverse"
         android:layout_margin="10dp"
         android:textColor="#F1EEEE"
-        android:text="add your data"
+        android:text="@string/add_your_data"
         android:padding="10dp"
         android:layout_gravity="center"
         android:gravity="center"
@@ -23,16 +23,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp"
-        >
+        android:baselineAligned="false">
         <RelativeLayout
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             >
             <TextView
+                android:id="@+id/l1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title:"
+                android:text="@string/title1"
                 android:textColor="#F1EEEE"
                 android:textAppearance="?android:textAppearanceMediumInverse"
                 ></TextView>
@@ -49,7 +50,8 @@
                 android:id="@+id/titl"
                 android:textColor="#F1EEEE"
                 android:textAppearance="?android:textAppearanceMediumInverse"
-                ></EditText>
+                android:inputType="text"
+                android:autofillHints=""></EditText>
 
         </RelativeLayout>
     </LinearLayout>
@@ -58,17 +60,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp"
-        >
+        android:baselineAligned="false">
         <RelativeLayout
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             >
             <TextView
+                android:id="@+id/la2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Descreption:"
-                android:textSize="20dp"
+                android:text="@string/descreption"
+                android:textSize="20sp"
                 android:textColor="#F1EEEE"
                 android:textAppearance="?android:textAppearanceMediumInverse"
                 ></TextView>
@@ -85,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/des"
                 android:textAppearance="?android:textAppearanceMediumInverse"
-                ></EditText>
+                android:inputType="text"
+                android:autofillHints=""></EditText>
 
         </RelativeLayout>
     </LinearLayout>
@@ -97,7 +101,7 @@
         android:layout_gravity="center"
         android:background="@drawable/box"
         android:id="@+id/save"
-        android:text="save"
+        android:text="@string/save"
         android:textColor="#F1EEEE"
         ></Button>
 

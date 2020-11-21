@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="title"
+            android:text="@string/title"
             android:padding="5dp"
             android:maxLines="2"
             android:layout_marginStart="15dp"
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="descreption"
+            android:text="@string/descreption1"
             android:padding="5dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
@@ -50,7 +50,7 @@
         <TextView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="10/2/2020"
+            android:text="@string/_10_2_2020"
             android:padding="5dp"
             android:maxLines="2"
             android:id="@+id/dateid"

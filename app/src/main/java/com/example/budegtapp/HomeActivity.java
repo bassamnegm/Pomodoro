@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -45,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
         FirebaseUser firebaseUser=auth.getCurrentUser();
         String id=firebaseUser.getUid();
         firebaseDatabase=FirebaseDatabase.getInstance();
-        databaseReference= firebaseDatabase.getReference("Alldata");
+        databaseReference= firebaseDatabase.getReference("Alldata").child(String.valueOf(auth.getUid()));
         // tooolbar
         Toolbar toolbar=findViewById(R.id.toolbar);
         toolbar.setTitle("Pomodoro");
@@ -86,6 +87,16 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String txttitle=tit.getText().toString().trim();
                 String txtdes=descreption.getText().toString().trim();
+                if(TextUtils.isEmpty(txttitle))
+                {
+                    tit.setError("is field requried");
+                    return;
+                }
+                if(TextUtils.isEmpty(txtdes))
+                {
+                    descreption.setError("is field requried");
+                    return;
+                }
                 String date= DateFormat.getDateInstance().format(new Date());
                 String mid=databaseReference.push().getKey();
                 Data data=new Data(txttitle,txtdes,mid,date);
