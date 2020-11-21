@@ -13,4 +13,6 @@
     <string name="save">save</string>
     <string name="add_your_data">add your data</string>
     <string name="title1">Title:</string>
+    <string name="todo">TODO</string>
+
 </resources>
